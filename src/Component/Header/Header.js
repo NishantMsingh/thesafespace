@@ -18,7 +18,7 @@ const Header = () => {
   return (
     <header className="header-sticky">
       <div className="brand">
-       <span> Xishant</span>
+       <span> Muskan</span>
      </div>
       
       <div className='d-flex align-items-center justify-content-start flex-row'>
