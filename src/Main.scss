@@ -4,15 +4,31 @@
     --font-weight600:600;
     --font-sizebrand:2rem;
     --font-brand:"muskan";
-    --title-color:rgb(105, 105, 105);
+    --title-color:rgb(255, 255, 255);
     --text-color:rgb(73, 73, 73);
     
 }
-
+.bg-lighter{
+    background-color: #000080;
+}
 .brand{ 
-    font-weight: var(--font-weight400);
+    font-weight: var(--font-weight600);
     font-size: var(--font-sizebrand);
     font-family: var(--font-brand);
     color:var(--title-color) ;
+    transition: all .5s ease-in-out;
+}
 
+.anchor{
+    text-decoration: none;
+    color: black;
+    font: 16px;
+    font-weight: 400;
+ }
+.brand1{ 
+    font-weight: var(--font-weight600);
+    font-size: 2.2rem;
+    font-family: var(--font-brand);
+    color:var(--title-color) ;
+    transition: all .5s ease-in-out;
 }

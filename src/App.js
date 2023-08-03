@@ -1,11 +1,17 @@
-import React from 'react';
+import React from 'react'
 import "./Main.css"
-import Header from "./Components/Header/Header";
-function App() {
+import CallEmail from './Component/CallEmail/CallEmail';
+import Header from './Component/Header/Header';
+import Hero from "./Component/Hero/Hero";
+const App = () => {
   return (
-    <React.Fragment>
-       <Header/>
-    </React.Fragment>
-  );
+    <div>
+          <CallEmail/>
+          <Header/>
+          <Hero/>
+          
+    </div>
+  )
 }
-export default App;
+
+export default App
