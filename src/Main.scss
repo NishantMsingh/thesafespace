@@ -1,0 +1,18 @@
+:root{
+    --font-weight400:400;
+    --font-weight500:500;
+    --font-weight600:600;
+    --font-sizebrand:2rem;
+    --font-brand:"muskan";
+    --title-color:rgb(105, 105, 105);
+    --text-color:rgb(73, 73, 73);
+    
+}
+
+.brand{ 
+    font-weight: var(--font-weight400);
+    font-size: var(--font-sizebrand);
+    font-family: var(--font-brand);
+    color:var(--title-color) ;
+
+}
