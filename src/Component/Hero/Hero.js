@@ -6,7 +6,7 @@ const HeroSection = () => {
         <div className="col-lg-5 col-md-5 col-sm-10 mt-4">
           <span className="text-primary bold">WHO WE ARE</span>
           <h3 className="brand">
-            Welcome to <span className="font-size-brand">XYG</span>
+            Welcome to <span className="font-size-brand bold">XYG</span>
           </h3>
           <p className="mt-1 roboto">
             Since 2012, XYG has proudly provided a practical, dependable, HIPAA

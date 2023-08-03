@@ -29,7 +29,7 @@ const Header = () => {
     
       </nav>
         <span className="header-burger">
-          <HiMenuAlt4 fontSize="2rem" color="black" onClick={menuHandler} />
+          <HiMenuAlt4 fontSize="2rem" color="white" onClick={menuHandler} />
         </span>
       </div>
     </header>

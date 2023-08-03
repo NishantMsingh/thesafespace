@@ -11,6 +11,10 @@
 
 nav span{
     margin-left: 10px;
+   
+}
+nav span a {
+    color: #fcfcfc;
 }
 nav{
     margin-right: 2rem;
@@ -20,6 +24,7 @@ nav{
         z-index: 1000;
         position: absolute;
         left: 0;
+      
         top: 58px;
          display: flex;
          align-items: center;
