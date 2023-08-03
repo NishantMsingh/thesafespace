@@ -1,7 +1,7 @@
 // Header.js
 import React, { useState } from 'react';
 import './Header.css';
-import { CgMenuRightAlt } from 'react-icons/cg';
+
 
 
 const Header = () => {
@@ -30,7 +30,7 @@ const Header = () => {
       <div>
       
         <span className='header-burger'>
-          <CgMenuRightAlt className="header-burger" fontSize="2rem" color="black" onClick={menuHandler} />
+          <span className="header-burger" fontSize="2rem" color="black" onClick={menuHandler} > Menu </span>
         </span>
       </div>
     </header>
