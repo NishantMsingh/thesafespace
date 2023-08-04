@@ -12,7 +12,7 @@ const Contact = () => {
       <div className="container">
         <div class="row justify-content-center align-items-start g-2">
           <div class="col-lg-6 col-md-10 col-sm-10 text-start">
-            <h2 className="bold heading">Contact With Us</h2>
+            <h2 className=" bold brand ">Contact With Us</h2>
             <div className="d-flex flex-column">
               <div className="d-flex flex-row align-items-center justify-content-start mt-3 pb-2">
                 <span className="contact-circle">
@@ -47,7 +47,7 @@ const Contact = () => {
             </div>
           </div>
           <div class="col-lg-6 col-md-10 col-sm-10  pad-adjustment shadow text-start rounded">
-            <h2 className="bold heading">Doctent Form</h2>
+            <h2 className="bold brand ">Doctent Form</h2>
             <div class="container">
               <form action="/action_page.php">
                 <label for="fname" className="bold">
@@ -75,7 +75,7 @@ const Contact = () => {
 
                 <br />
                 <label for="subject" className="bold">
-                  Subject
+                  Message
                 </label>
                 <textarea
                   id="subject"
