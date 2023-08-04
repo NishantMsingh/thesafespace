@@ -16,20 +16,21 @@ const Header = () => {
   };
 
   return (
-    <header className="header-sticky">
+    <header className="header-sticky bg-light">
       <div className="brand">
-       <span> Muskan</span>
+       <span> THE SAFE PLACE</span>
      </div>
-      
-      <div className='d-flex align-items-center justify-content-start flex-row'>
-      <nav className={menu ? 'heigh' : ''}>
-        <span> <a className='anchor' href='#hero' onClick={menuHandler}>Home</a></span>
-        <span><a className='anchor' href='#About' onClick={menuHandler}>About</a></span>
-        <span><a className='anchor' href='#Skills' onClick={menuHandler}>Skills</a></span>
+     <nav className={menu ? 'heigh' : ''}>
+        <span> <a className='anchor' href='#hero' onClick={menuHandler}>HOME</a></span>
+        <span><a className='anchor' href='#About' onClick={menuHandler}>SERVICES</a></span>
+        <span><a className='anchor' href='#Skills' onClick={menuHandler}>CONTACT US</a></span>
+        <span><a className='anchor' href='#Skills' onClick={menuHandler}>TRAINING</a></span>
     
       </nav>
+      <div className='d-flex align-items-center justify-content-start flex-row'>
+      
         <span className="header-burger">
-          <HiMenuAlt4 fontSize="2rem" color="white" onClick={menuHandler} />
+          <HiMenuAlt4 fontSize="2rem" color="black" onClick={menuHandler} />
         </span>
       </div>
     </header>

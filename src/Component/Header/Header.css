@@ -1,5 +1,5 @@
 .header-sticky{
-    background-color: #fe4066c5;
+
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -7,15 +7,52 @@
     position: sticky;
     top: 0px;
     z-index: 10000;
+   
 }
 
 nav span{
-    margin-left: 10px;
+    margin-left: 14px;
    
 }
 nav span a {
-    color: #fcfcfc;
+    color: var( --text-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 27px;
+    letter-spacing: 0px;
+    font-weight: 500;
+    font-style: normal;
+    padding: 10px 17px;
+    margin: 0;
+    transition: color .5s ease-in;
+    position: relative;
 }
+
+
+nav span a::before {
+    content: '';
+    position: absolute;
+    bottom: -2px; 
+    left: 0;
+    width: 0%;
+    height: 3px;
+    margin-top: 5px;
+    border-radius: 2px; 
+    background-color: var(--e-global-color-accent);
+    opacity: 1;
+    transition: all .5s ease-in-out; 
+  }
+  
+  nav span a:hover::before {
+  
+    width: 100%;
+  }
+nav span a:hover {
+  
+    font-weight: 500;
+    color: var(--e-global-color-accent);
+}
+
 nav{
     margin-right: 2rem;
 }
@@ -30,7 +67,7 @@ nav{
          align-items: center;
          justify-content: center;
          flex-direction: column;
-        background-color: #fe4066c5;
+        background-color: whitesmoke;
         width: 100%;
         margin: 0px !important;
         padding: 0px !important;

@@ -1,30 +1,31 @@
-import classes from "./Hero.css";
+import "./Hero.css";
+import {IoIosArrowForward} from "react-icons/io";
+import imageHero from "../../Assets/Images/doctor-5710153.jpg"
 const HeroSection = () => {
   return (
     <section id="hero">
       <div className="row d-flex align-items-center justify-content-center hero">
         <div className="col-lg-5 col-md-5 col-sm-10 mt-4">
-          <span className="text-primary bold">WHO WE ARE</span>
-          <h3 className="brand">
-            Welcome to <span className="font-size-brand bold">XYG</span>
+          <h3 className="brand fs-1">
+            Welcome 
           </h3>
-          <p className="mt-1 roboto">
-            Since 2012, XYG has proudly provided a practical, dependable, HIPAA
-            secure medical answering service that’s used by thousands of
-            practices nationwide.
+          <p className="mt-1 roboto slate">
+            At The Safe Space we believe in the transformative power of empathy,
+            kindness, and vulnerability. This is your sanctuary, where judgment
+            has no place, and authenticity is celebrated. Step into a world of
+            compassion and understanding, where you are free to express your
+            true self, without fear or reservation.
           </p>{" "}
-          <p className="mt-1 roboto">
-            Since 2012, XYG has proudly provided a practical, dependable, HIPAA
-            secure medical answering service that’s used by thousands of
-            practices nationwide.
+          <p className="mt-1 roboto slate">
+            Our mission is simple yet profound - to create a safe haven where
+            hearts connect, and souls find solace. Here, you'll be embraced for
+            who you are, and your journey towards healing and growth will be met
+            with unwavering support.
           </p>
-          <button className="hero-enquiry "> Enquiry now</button>
+          <button className="hero-enquiry bold"> Enquiry now <IoIosArrowForward/></button>
         </div>
         <div className="col-lg-5 col-md-5 col-sm-10 mt-4">
-          My experience enables me to offer effective outpatient,
-          individualized, psychological care. I am trained to manage a number of
-          mental health disorders, and provide a safe space to children,
-          adolescents, adults, families, and couples via psychotherapy
+     <img src={imageHero} alt='Hero' className="img-fluid rounded" />
         </div>
       </div>
     </section>
