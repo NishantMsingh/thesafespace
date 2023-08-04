@@ -6,9 +6,12 @@ import Hero from "./Component/Hero/Hero";
 import Footer from './Component/Footer/Footer';
 import Services from './Component/Services/Services';
 import Contact from './Component/Contact/Contact';
+import MouseFollower from './MouseFollower';
+
 const App = () => {
   return (
     <div>
+          <MouseFollower />
           <CallEmail/>
           <Header/>
           <Hero/>

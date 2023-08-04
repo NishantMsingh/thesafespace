@@ -1,7 +1,7 @@
 // Header.js
 import React, { useState } from 'react';
 import './Header.css';
-import { HiMenuAlt4 } from 'react-icons/hi';
+import { CgMenuRight } from 'react-icons/cg';
 
 
 const Header = () => {
@@ -22,15 +22,15 @@ const Header = () => {
      </div>
      <nav className={menu ? 'heigh' : ''}>
         <span> <a className='anchor' href='#hero' onClick={menuHandler}>HOME</a></span>
-        <span><a className='anchor' href='#About' onClick={menuHandler}>SERVICES</a></span>
-        <span><a className='anchor' href='#Skills' onClick={menuHandler}>CONTACT US</a></span>
-        <span><a className='anchor' href='#Skills' onClick={menuHandler}>TRAINING</a></span>
+        <span><a className='anchor' href='#services' onClick={menuHandler}>SERVICES</a></span>
+        <span><a className='anchor' href='#contact' onClick={menuHandler}>CONTACT US</a></span>
+        <span><a className='anchor' href='#program' onClick={menuHandler}>TRAINING</a></span>
     
       </nav>
       <div className='d-flex align-items-center justify-content-start flex-row'>
       
         <span className="header-burger">
-          <HiMenuAlt4 fontSize="2rem" color="black" onClick={menuHandler} />
+          <CgMenuRight fontSize="2rem" color="black" onClick={menuHandler} />
         </span>
       </div>
     </header>

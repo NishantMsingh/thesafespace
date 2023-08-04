@@ -10,7 +10,7 @@
     --e-global-color-primary: #6EC1E4;
     --e-global-color-secondary: #54595F;
     --e-global-color-text: #7A7A7A;
-    --e-global-color-accent: #20c997;
+    --e-global-color-accent: #01BDB2;
     --e-global-typography-primary-font-family: "Roboto";
     --e-global-typography-primary-font-weight: 600;
     --e-global-typography-secondary-font-family: "Roboto Slab";
@@ -24,11 +24,29 @@
 .cardbg{
     background-color: rgba(161, 195, 175, 0.2);
 }.cardcontact{
-    background-color:rgb(20, 41, 89);
+    background-color:var( --e-global-color-accent);
 }
 .heading{
     color: var( --title-color);
+
 }
+
+.motion {
+    width: 7px;
+    height: 7px;
+    background-color: #01BDB2;
+    border-radius: 50%;
+    position: absolute;
+    transition: all 0.5s; 
+  }
+.slate{
+    color: #54595f93;
+}
+  .contact-circle{
+    padding: 20px;
+    border-radius: 50%;
+    background-color: var(--title-color);
+  }
 .brand{ 
     font-weight: var(--font-weight600);
     font-size: var(--font-sizebrand);
@@ -53,14 +71,13 @@ font-family: "roboto";
 }
 .anchor{
     text-decoration: none;
-   
     font: 18px;
     font-weight: 500;
  }
 .brand1{ 
-    font-weight: var(--font-weight600);
+    font-weight:var(--font-weight600);
     font-size: 2.2rem;
-    font-family: var(--font-brand);
+    font-family:var(--font-brand);
     color:var(--title-color) ;
     transition: all .5s ease-in-out;
 }
