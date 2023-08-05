@@ -4,7 +4,7 @@ const Footer = () => {
     <section id="hero" className="bg-light">
       <div className="row d-flex align-items-center justify-content-center footer ">
         <div className="col-lg-10 col-md-10 col-sm-10">
-          <h2 className="bold heading">Location</h2>
+          <h2 className="bold brand">Location</h2>
           <hr/>
           <iframe
           title="map"
