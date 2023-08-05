@@ -4,8 +4,52 @@
   --font-weight600:600;
   --font-sizebrand:2rem;
   --font-brand:"muskan";
-  --title-color:rgb(59, 59, 59);
-  --text-color:rgb(73, 73, 73);
+  --title-color:rgb(20, 41, 89);
+  --text-color:rgb(20, 41, 89);
+  --text-color-hover:rgb(20, 41, 89);
+  --e-global-color-primary: #6EC1E4;
+  --e-global-color-secondary: #54595F;
+  --e-global-color-text: #7A7A7A;
+  --e-global-color-accent: #01BDB2;
+  --e-global-typography-primary-font-family: "Roboto";
+  --e-global-typography-primary-font-weight: 600;
+  --e-global-typography-secondary-font-family: "Roboto Slab";
+  --e-global-typography-secondary-font-weight: 400;
+  --e-global-typography-text-font-family: "Roboto";
+  --e-global-typography-text-font-weight: 400;
+  --e-global-typography-accent-font-family: "Roboto";
+  --e-global-typography-accent-font-weight: 500;
+}
+
+.cardbg {
+  background-color: rgba(161, 195, 175, 0.2);
+}
+
+.cardcontact {
+  background-color: var(--e-global-color-accent);
+}
+
+.heading {
+  color: var(--title-color);
+}
+
+.motion {
+  width: 7px;
+  height: 7px;
+  background-color: #01BDB2;
+  border-radius: 50%;
+  position: absolute;
+  transition: all 0.5s;
+}
+
+.slate {
+  color: rgba(84, 89, 95, 0.5764705882);
+}
+
+.contact-circle {
+  padding: 20px;
+  border-radius: 50%;
+  background-color: var(--title-color);
 }
 
 .brand {
@@ -20,6 +64,10 @@
   font-weight: 500;
 }
 
+.slate {
+  color: var(--title-color);
+}
+
 .para-brand {
   font-size: 16px;
   font-family: "roboto";
@@ -27,14 +75,14 @@
 
 .font-size-brand {
   font-size: 3rem;
-  color: #e94467;
+  color: var(--title-color);
   text-shadow: 10px 10px 10px black;
 }
 
 .anchor {
   text-decoration: none;
-  font: 16px;
-  font-weight: 400;
+  font: 18px;
+  font-weight: 500;
 }
 
 .brand1 {
