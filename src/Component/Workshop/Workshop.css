@@ -1,0 +1,29 @@
+.title-workshop {
+    position: relative;
+  }
+  
+  .title-workshop::before,
+  .title-workshop::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    width: 60px;
+    border-radius: 25px;
+    height: 4px;
+    background-color: rgb(161, 93, 224);
+  }
+  
+  .title-workshop::before {
+    left: -80px;
+  }
+  
+  .title-workshop::after {
+    right: -80px;
+  }
+  
+  @media (max-width:768px) {
+    .title-workshop::before,
+  .title-workshop::after {
+    width: 0px;
+  }
+  }

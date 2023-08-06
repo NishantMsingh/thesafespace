@@ -1,0 +1,29 @@
+.title-training {
+    position: relative;
+  }
+  
+  .title-training::before,
+  .title-training::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    width: 60px;
+    border-radius: 25px;
+    height: 4px;
+    background-color: rgb(161, 93, 224);
+  }
+  
+  .title-training::before {
+    left: -80px;
+  }
+  
+  .title-training::after {
+    right: -80px;
+  }
+   
+  @media (max-width:768px) {
+    .title-training::before,
+  .title-training::after {
+    width: 0px;
+  }
+  }

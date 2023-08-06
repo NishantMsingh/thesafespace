@@ -1,9 +1,26 @@
-import React from "react";
+import React, { useRef } from "react";
 import "./Contact.css";
 import { TfiLocationPin } from "react-icons/tfi";
 import { LuMail } from "react-icons/lu";
 import { MdCall } from "react-icons/md";
 const Contact = () => {
+  const nameRef = useRef();
+  const emailRef = useRef();
+  const messageRef = useRef();
+
+  const ContactFormhandler = (event) => {
+    event.preventDefault();
+    let obj = {
+      name: nameRef.current.value,
+      email: emailRef.current.value,
+      message: messageRef.current.value,
+    };
+    nameRef.current.value = "";
+    emailRef.current.value = "";
+    messageRef.current.value = "";
+    console.log(obj);
+    alert("Thank you for contacting us! We will get back to you soon.");
+  };
   return (
     <div
       id="contact"
@@ -49,7 +66,7 @@ const Contact = () => {
           <div class="col-lg-6 col-md-10 col-sm-10  pad-adjustment shadow text-start rounded">
             <h2 className="bold brand ">Doctent Form</h2>
             <div class="container">
-              <form action="/action_page.php">
+              <form onSubmit={ContactFormhandler}>
                 <label for="fname" className="bold">
                   {" "}
                   Name
@@ -59,7 +76,9 @@ const Contact = () => {
                   className="rounded"
                   id="name"
                   name="name"
+                  ref={nameRef}
                   placeholder="Your name.."
+                  required
                 />
 
                 <label for="lname" className="bold">
@@ -70,7 +89,9 @@ const Contact = () => {
                   className="rounded"
                   id="lname"
                   name="lastname"
+                  ref={emailRef}
                   placeholder="Email..."
+                  required
                 />
 
                 <br />
@@ -83,7 +104,8 @@ const Contact = () => {
                   name="subject"
                   placeholder="Leave your message.."
                   style={{ height: "100px" }}
-                ></textarea>
+                  ref={messageRef}
+                 required></textarea>
 
                 <input type="submit" value="Send Message" className="bold w-100" />
               </form>

@@ -1,6 +1,7 @@
 import "./Services.css";
 import img1 from "../../Assets/Images//appoint.jpg"
 import img2 from "../../Assets/Images//train.jpg"
+import { Link } from "react-router-dom";
 
 const Services = () => {
   return (
@@ -15,7 +16,8 @@ const Services = () => {
     <h5>BOOK A THERAPY SESSION WITH US</h5>
   
     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <button className="card-button bold"> BOOK NOW</button>
+    <Link to="/Threpy"> <button className="card-button bold">BOOK NOW</button> </Link>
+
   </div>
 </div> 
 <div class="card" style={{width:" 20rem"}}>
@@ -24,7 +26,7 @@ const Services = () => {
     <h5>EXPLORE OUR TRAINING / CERTIFICATION PROGRAMS</h5>
   
     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <button className="card-button bold"> ENROLL NOW</button>
+    <Link to="/Training"> <button className="card-button bold">ENROLL NOW</button> </Link>
   </div>
 </div> 
 <div class="card" style={{width:" 20rem"}}>
@@ -33,7 +35,7 @@ const Services = () => {
     <h5>CONTACT US FOR CORPORATE WORKSHOPS & TRAINING</h5>
   
     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <button className="card-button bold">CONTACT US</button>
+    <Link to="/WorkShop"> <button className="card-button bold">CONTACT US</button> </Link>
   </div>
 </div>
 

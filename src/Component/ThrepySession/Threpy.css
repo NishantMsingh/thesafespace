@@ -1,0 +1,30 @@
+.title-threpy {
+    position: relative;
+  }
+  
+  .title-threpy::before,
+  .title-threpy::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    width: 60px;
+    border-radius: 25px;
+    height: 4px;
+    background-color: rgb(161, 93, 224);
+  }
+  
+  .title-threpy::before {
+    left: -80px;
+  }
+  
+  .title-threpy::after {
+    right: -80px;
+  }
+   
+  @media (max-width:768px) {
+    .title-threpy::before,
+  .title-threpy::after {
+    width: 0px;
+  }
+  }
+  
