@@ -7,7 +7,9 @@ const Workshop = () => {
     <h1 className='brand title-threpy'>WORKSHOP AND TRANING PROGRAM</h1>
     <nav aria-label="breadcrumb fs-6">
     <ol class="breadcrumb">
-    <Link to="/" class="breadcrumb-item"><a href="#">Home</a></Link>
+    <li className="breadcrumb-item">
+            <Link to="/">Home</Link>
+          </li>
     <li class="breadcrumb-item active" aria-current="page">workshop</li>
    </ol>
 </nav>

@@ -9,7 +9,7 @@ const Header = () => {
 
   const menuHandler = () => {
    
-    if(window.innerWidth<=768)
+    if(window.innerWidth<=844)
     {
       setMenu(!menu);
     }

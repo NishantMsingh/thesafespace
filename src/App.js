@@ -18,17 +18,14 @@ const App = () => {
           <MouseFollower />
           <CallEmail/>
           <Header/>
-
           <Routes>
             <Route path="/" element={ <Home/>}/>
             <Route path="/Workshop" element={<Workshop/>}/>
             <Route path="/Threpy" element={<Threpy/>}/>
             <Route path="/Training" element={<Training/>}/>
-            <Route path="*" element={<h1>Hiii</h1>}/>
-          
-            </Routes>
-         
-          <Footer/>
+            <Route path="/" element={<Workshop></Workshop>}/>
+           </Routes>
+           <Footer/>
           
     </Router>
   ) 

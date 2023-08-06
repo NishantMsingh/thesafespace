@@ -8,7 +8,9 @@ const Training = () => {
     <h1 className='brand title-threpy'>Certified Training Program</h1>
     <nav aria-label="breadcrumb fs-6">
     <ol class="breadcrumb">
-    <Link to="/" class="breadcrumb-item"><a href="#">Home</a></Link>
+    <li className="breadcrumb-item">
+            <Link to="/">Home</Link>
+          </li>
     <li class="breadcrumb-item active" aria-current="page">Training</li>
    </ol>
 </nav>
