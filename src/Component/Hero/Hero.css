@@ -1,3 +1,4 @@
+
 .hero{
   padding: 2rem 1rem;
   max-width: 100%;
@@ -53,23 +54,11 @@
 
 
 
-@keyframes left-top-right-bottom-text {
-  0% {
-    text-shadow: -15px -15px 13px rgba(209, 206, 206, 0.952); 
-  }
-  25% {
-    text-shadow: 15px -15px 13px rgba(209, 206, 206, 0.952); 
-  }
-  50% {
-    text-shadow: 15px 15px 13px rgba(209, 206, 206, 0.952);  
-  }
-  75% {
-    text-shadow: -15px 15px 13px rgba(209, 206, 206, 0.952); 
-  }
-  100% {
-    text-shadow: -15px -15px 13px rgba(209, 206, 206, 0.952); 
-  }
-}
+
+
+
+
+
 
 
 
