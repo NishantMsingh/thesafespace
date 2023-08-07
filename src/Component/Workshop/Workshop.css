@@ -1,7 +1,23 @@
 .title-workshop {
     position: relative;
   }
-  
+  .whatapp-btn{
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #128c7e;
+    color: white;
+    font-weight: 500;
+    text-decoration: none;
+    border-radius: 25px;
+    border: 1px solid transparent;
+    transition: all .5s ease-in-out;
+  }
+  .whatapp-btn:hover{
+    border: 1px solid #128c7e;
+    color: #128c7e;;
+    background-color: #128c7e00;
+  }
   .title-workshop::before,
   .title-workshop::after {
     content: '';
@@ -12,7 +28,9 @@
     height: 4px;
     background-color: rgb(161, 93, 224);
   }
-  
+  .w-70{
+    max-width: 75%;
+  }
   .title-workshop::before {
     left: -80px;
   }
@@ -25,5 +43,8 @@
     .title-workshop::before,
   .title-workshop::after {
     width: 0px;
+  }
+  .w-70{
+    max-width: 100%;
   }
   }

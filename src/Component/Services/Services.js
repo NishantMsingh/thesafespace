@@ -8,7 +8,7 @@ const Services = () => {
   return (
     <section id="services" className="text-center mt-5">
          <span className="brand shadow rounded p-1">
-            What we do
+          Services
           </span>
         <div className="d-flex flex-wrap align-items-center justify-content-center mt-5 mb-5 gap-5">
         <div class="card" style={{width:" 20rem"}}>

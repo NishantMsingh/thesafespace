@@ -16,7 +16,7 @@ const Header = () => {
   };
 
   return (
-    <header className="header-sticky bg-light">
+    <header className="header-sticky bg-light pt-2">
       <div className="brand">
        <span> THE SAFE PLACE</span>
      </div>
@@ -24,7 +24,7 @@ const Header = () => {
         <span> <a className='anchor' href='#hero' onClick={menuHandler}>HOME</a></span>
         <span><a className='anchor' href='#services' onClick={menuHandler}>SERVICES</a></span>
         <span><a className='anchor' href='#contact' onClick={menuHandler}>CONTACT US</a></span>
-        <span><a className='anchor' href='#program' onClick={menuHandler}>TRAINING</a></span>
+        <span><a className='anchor' href='#services' onClick={menuHandler}>TRAINING</a></span>
     
       </nav>
       <div className='d-flex align-items-center justify-content-start flex-row'>
