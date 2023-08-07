@@ -22,7 +22,7 @@ const HeroSection = () => {
             who you are, and your journey towards healing and growth will be met
             with unwavering support.
           </p>
-          <button className="hero-enquiry bold"> Enquiry now <IoIosArrowForward/></button>
+         
         </div>
         <div className="col-lg-5 col-md-5 col-sm-10 mt-4">
      <img src={imageHero} alt='Hero' className="img-fluid rounded" />

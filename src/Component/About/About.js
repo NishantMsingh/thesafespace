@@ -20,15 +20,12 @@ const About = () => {
             <h6>Psychologist at barictric department,</h6>
             <h6>Apolo Hospital</h6>
 
-            <Link to="/Threpy">
-              {" "}
-              <button className="card-button bold">BOOK NOW</button>{" "}
-            </Link>
+           
           </div>
         </div>
-        <div class="col-lg-6 col-md-10 col-sm-10 p-6">
+        <div class="col-lg-6 col-md-10 col-sm-10 p-6 text-start">
           <p>
-            Your first step towards healing is just a click away. Book your
+          <span className="brand">Y</span>our first step towards healing is just a click away. Book your
             session today, and let's embark on a journey towards a happier and
             healthier you. Whether you prefer in-person sessions or virtual
             appointments, we are here to accommodate your needs.
@@ -37,12 +34,15 @@ const About = () => {
             My treatment focus is centered around your healing, exploration, and
             the illumination of your inner strengths.
           </p>
-
           <p>
             Using evidence-based techniques and a compassionate heart, I will
             work towards providing you a safe space tp help you navigate life's
             complexities and find clarity and resilience.
           </p>
+          <Link to="/Threpy">
+              {" "}
+              <button className="card-button bold">BOOK NOW</button>{" "}
+            </Link>
         </div>
       </div>
     </div>

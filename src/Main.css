@@ -2,7 +2,7 @@
   --font-weight400:400;
   --font-weight500:500;
   --font-weight600:600;
-  --font-sizebrand:2rem;
+  --font-sizebrand:1.5rem;
   --font-brand:"muskan";
   --title-color:rgb(20, 41, 89);
   --text-color:rgb(20, 41, 89);
@@ -87,10 +87,13 @@
 
 .brand1 {
   font-weight: var(--font-weight600);
-  font-size: 2.2rem;
   font-family: var(--font-brand);
   color: var(--title-color);
   transition: all 0.5s ease-in-out;
+}
+
+.title-header {
+  font-size: 2.2rem !important;
 }
 
 @media (max-width: 768px) {
@@ -98,7 +101,7 @@
     --font-weight400:400;
     --font-weight500:500;
     --font-weight600:600;
-    --font-sizebrand:1.5rem;
+    --font-sizebrand:1.2rem;
     --font-brand:"muskan";
     --title-color:rgb(20, 41, 89);
     --text-color:rgb(20, 41, 89);
@@ -115,5 +118,8 @@
     --e-global-typography-text-font-weight: 400;
     --e-global-typography-accent-font-family: "Roboto";
     --e-global-typography-accent-font-weight: 500;
+  }
+  .title-header {
+    font-size: 1.7rem !important;
   }
 }/*# sourceMappingURL=Main.css.map */

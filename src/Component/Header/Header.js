@@ -17,7 +17,7 @@ const Header = () => {
 
   return (
     <header className="header-sticky bg-light pt-2">
-      <div className="brand">
+      <div className="title-header brand">
        <span> THE SAFE PLACE</span>
      </div>
      <nav className={menu ? 'heigh' : ''}>

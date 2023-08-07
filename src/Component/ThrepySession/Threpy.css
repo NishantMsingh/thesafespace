@@ -22,9 +22,6 @@
   }
    
   @media (max-width:768px) {
-    .title-threpy::before,
-  .title-threpy::after {
-    width: 0px;
-  }
+  
   }
   
