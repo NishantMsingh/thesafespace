@@ -2,7 +2,7 @@ import React from "react";
 
 const WyChooseUs = () => {
   return (
-    <div className="Container text-center p-5">
+    <div className="Container text-center">
       <span className="  shadow rounded p-1 brand">Why Choose Us</span>
      <div className="mx-auto w-70">
         

@@ -5,16 +5,16 @@ import {BsWhatsapp} from "react-icons/bs";
 const Workshop = () => {
   return (
     <div className="  container mt-5 mb-5 d-flex align-items-center justify-content-center flex-column">
-      <h1 className="brand title-threpy">WORKSHOP AND TRANING PROGRAMS</h1>
+      <h1 className="brand title-workshop text-center">WORKSHOP AND TRANING PROGRAMS</h1>
       <button className="card-button bold">ENROLL NOW</button>
 
-      <div className="text-center mt-4 w-70">
+      <div className="text-start mt-4 w-70">
         <p>
           Our workshops and training programs are designed to empower your team
           with valuable psychological insights and tools, fostering a positive
           work environment and enhancing overall productivity.
         </p>
-        <h4 className="bold">Our Approch</h4>
+        <h4 className="bold text-center">Our Approch</h4>
         <p>
           We believe that a harmonious workplace is essential for success. Our
           workshops are carefully crafted to address the unique dynamics of your

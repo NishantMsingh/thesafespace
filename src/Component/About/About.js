@@ -1,5 +1,5 @@
 import React from "react";
-import userimg from "../../Assets/Images/aboutimg.png";
+import userimg from "../../Assets/Images/aboutimg.jpeg";
 import "./About.css";
 import { Link } from "react-router-dom";
 const About = () => {

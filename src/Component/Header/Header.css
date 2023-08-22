@@ -1,13 +1,12 @@
 .header-sticky{
-
     display: flex;
-    align-items: center;
     justify-content: space-between;
+    align-items: center;
     padding: 5px 10px;
     position: sticky;
     top: 0px;
     z-index: 10000;
-   
+    background-color: rgb(255,82,161);  
 }
 
 nav span{
@@ -22,13 +21,25 @@ nav span a {
     letter-spacing: 0px;
     font-weight: 500;
     font-style: normal;
-    padding: 10px 17px;
+    padding: 10px 10px;
     margin: 0;
     transition: color .5s ease-in;
     position: relative;
 }
-
-
+.brand-text {
+    font-size: 18px; /* Adjust font size as needed */
+    font-weight: bold;
+    color: white; /* Adjust text color as needed */
+    margin-left: 5px; /* Add some spacing between image and text */
+    vertical-align: middle; /* Vertically align the text with the image */
+  }
+  .navbar-brand{
+    font-size:1.4rem;
+  }
+.brandimg {
+    width: 80px;
+    height: auto;
+  }
 nav span a::before {
     content: '';
     position: absolute;
@@ -41,8 +52,9 @@ nav span a::before {
     background-color: var(--e-global-color-accent);
     opacity: 1;
     transition: all .5s ease-in-out; 
+    max-width: 100%;
   }
-  
+ 
   nav span a:hover::before {
   
     width: 100%;
@@ -57,17 +69,26 @@ nav{
     margin-right: 2rem;
 }
 @media (max-width:844px) {
+    .pos-rel{
+        position: relative;
+        top: 5px;
+       
+     }
+    .brandimg {
+        width: 60px;
+        height: auto;
+      }
     nav{
         z-index: 1000;
         position: absolute;
         left: 0;
       
-        top: 46px;
+        top: 69px;
          display: flex;
          align-items: center;
          justify-content: center;
          flex-direction: column;
-        background-color: whitesmoke;
+        background-color:rgb(255,82,161); 
         width: 100%;
         margin: 0px !important;
         padding: 0px !important;
