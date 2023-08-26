@@ -4,10 +4,10 @@
     margin: 3px 3px;
     padding: 3px 10px;
     min-height: 320px;
-
 }
 .w-30{
     width: 35%;
+    
 }
 .icon-body{
     padding: 10px;
@@ -21,7 +21,7 @@
 
 }
 .rounded-50{
-    border-radius: 50% 50% 25% 50%;
+    border-radius: 50% 50% 50% 50%;
 }
 .dotted{
     width: 90%;
@@ -49,4 +49,16 @@
 }
 .know-more-text:hover {
     transform: translatex(20px);
+}
+
+@media (max-width:768px) {
+    .threpist-card{
+        flex-direction: column;
+        padding: 10px 0px;
+    }
+    .rounded-50{
+        border-radius: 50% 50% 50% 50%;
+        margin: 5px 0px;
+    }
+
 }
