@@ -1,6 +1,9 @@
 import priyankimg from "./Images/PriyankqRawlani.png";
 import roshniimg from "./Images/RaushniKhanna.png";
 import ishaniimg from "./Images/IshaniAhuja.png";
+import Devanshiimg from "./Images/DevanshiRao.png";
+import Asthaimg from "./Images/AsthaAnand.png";
+import Kratiimg from "./Images/Krati.png";
 
 
 const Doctors = [
@@ -52,9 +55,63 @@ const Doctors = [
         experience: "8 Years",
         price: " 2000-2800 , also subjective to meet clients contextual needs",
         pic: ishaniimg,
-        brief: `My name is ishani ahuja and I am an RCI licensed child , adolescent and young adult psychologist working with individuals , families from a spectrum of Neurotypical to Neurodivergent  beings. \n I am a trained and certified expressive arts based therapy practitioner,  play therapist and work in therapy  using  a trauma informed lens , engrained in mindfulness,  and eclectic  healing techniques for  making meaning of our own lives, through our own voices. The nature of work involves all kinds of eclectic novel ways using arts, music, dance, poetry, movement, narratives, movie analysis, book /passage reviewing , metaphorical insights to make sense of our own world through our voice.`,
+        brief: `My name is ishani ahuja and I am an RCI licensed child , adolescent and young adult psychologist working with individuals , families from a spectrum of Neurotypical to Neurodivergent  beings. \n I am a trained and certified expressive arts based therapy practitioner,  play therapist and work in therapy  using  a trauma informed lens , engrained in mindfulness,  and eclectic  healing techniques for  making meaning of our own lives, through our own voices.  \n The nature of work involves all kinds of eclectic novel ways using arts, music, dance, poetry, movement, narratives, movie analysis, book /passage reviewing , metaphorical insights to make sense of our own world through our voice.`,
         specification: `Play therapy both child and  adult, expressive arts based therapy, trauma informed therapy , inner child healing , emdr therapy, chakra healing , energy work healer , somatic healing, emotional freedom techniques `
+    },
+    {
+        idphone: "9113074429",
+        pronoun: "She/her",
+        name: "Devanshi Rao",
+        email: " itsniramaya99@gmail.com",
+        phone: "9113074429",
+        description: "MSc Counselling psychology",
+        location: "Delhi",
+        experience: "1 Year",
+        price: " 1200-1500 for a session",
+        pic: Devanshiimg,
+        brief: ` My name is ishani ahuja and I am an RCI licensed child , adolescent and young adult psychologist working with individuals , families from a spectrum of Neurotypical to Neurodivergent  beings. \n I am a trained and certified expressive arts based therapy practitioner,  play therapist and work in therapy  using  a trauma informed lens , engrained in mindfulness,  and eclectic  healing techniques for  making meaning of our own lives, through our own voices.  \n The nature of work involves all kinds of eclectic novel ways using arts, music, dance, poetry, movement, narratives, movie analysis, book /passage reviewing , metaphorical insights to make sense of our own world through our voice.`,
+        specification: `
+        Gestalt therapy, Acceptance and commitment therapy        `
+    },
+    {
+        idphone: "9113074429",
+        pronoun: "She/her",
+        name: "Astha Anand",
+        email: " itsniramaya99@gmail.com",
+        phone: "9113074429",
+        description: "BA Psychology from DU. Msc in organisational psychology from Christ University. Post graduate diploma in counselling psychology from St Xaviers College.",
+        location: "Delhi",
+        experience: "2 Year",
+        price: " 1500INR for a session",
+        pic: Asthaimg,
+        brief: ` 
+        I am an eclectic approach oriented therapist, I am queer affirmative and also open to cases that are in the bounds of a counselling psychologist like lifestyle issues, career, self esteem, teenage year issues, relationship issues, personal growth etc.         `,
+        specification: `
+        Eclectic approach. I am open to taking clients from the age group of 18-45 years. 
+
+ `
     }
+    ,
+    {
+        idphone: "9113074429",
+        pronoun: "She/her",
+        name: "Krati Girhotra",
+        email: "kratigirhotra10@gmail.com ",
+        phone: "9113074429",
+        description: "Expressive Arts Therapy Practitioner",
+        location: "Delhi",
+        experience: "2 Year",
+        price: " 1200-1500",
+        pic: Kratiimg,
+        brief: ` 
+        cases that are in the bounds of a counselling psychologist like lifestyle issues, career,.         `,
+        specification: `
+        Children with special needs and their caretakers, group therapy 
+ 
+
+ `
+    }
+
 
 ]
 export default Doctors;
