@@ -29,12 +29,12 @@ const Contact = () => {
     >
       <div className="container">
         <div class="row justify-content-center align-items-start g-2">
-          <div class="col-lg-6 col-md-10 col-sm-10 text-start">
+          <div class="col-lg-10 col-md-10 col-sm-10 text-center">
             <h2 className=" bold brand ">Contact With Us</h2>
             <div className="d-flex flex-column">
-              <div className="d-flex flex-row align-items-center justify-content-start mt-3 pb-2">
+              <div className="d-flex flex-row align-items-center justify-content-center mt-3 pb-2">
                 <span className="contact-circle">
-                  <MdCall color={"white"} fontSize={"2rem"} />
+                  <MdCall color={"white"} fontSize={"3rem"} />
                 </span>
                 <div className="ps-2 pt-1">
                   <h4 className="bold">Phone</h4>
@@ -43,7 +43,7 @@ const Contact = () => {
               </div>
               <div className="d-flex flex-row align-items-center justify-content-start pt-2 pb-2">
                 <span className="contact-circle">
-                  <LuMail color={"white"} fontSize={"2rem"} />
+                  <LuMail color={"white"} fontSize={"3rem"} />
                 </span>
                 <div className="ps-2 pt-1">
                   <h4 className="bold">Mail</h4>
@@ -55,7 +55,7 @@ const Contact = () => {
 
               <div className="d-flex flex-row align-items-center justify-content-start pt-2 pb-2">
                 <span className="contact-circle">
-                  <TfiLocationPin color={"white"} fontSize={"2rem"} />
+                  <TfiLocationPin color={"white"} fontSize={"3rem"} />
                 </span>
                 <div className="ps-2 pt-1">
                   <h4 className="bold">Address</h4>
@@ -64,54 +64,7 @@ const Contact = () => {
               </div>
             </div>
           </div>
-          <div class="col-lg-6 col-md-10 col-sm-10  pad-adjustment shadow text-start rounded">
-            <h2 className="bold brand ">Doctent Form</h2>
-            <div class="container">
-              <form onSubmit={ContactFormhandler}>
-                <label for="fname" className="bold">
-                  {" "}
-                  Name
-                </label>
-                <input
-                  type="text"
-                  className="rounded"
-                  id="name"
-                  name="name"
-                  ref={nameRef}
-                  placeholder="Your name.."
-                  required
-                />
-
-                <label for="lname" className="bold">
-                  Email
-                </label>
-                <input
-                  type="email"
-                  className="rounded"
-                  id="lname"
-                  name="lastname"
-                  ref={emailRef}
-                  placeholder="Email..."
-                  required
-                />
-
-                <br />
-                <label for="subject" className="bold">
-                  Message
-                </label>
-                <textarea
-                  id="subject"
-                  className="rounded"
-                  name="subject"
-                  placeholder="Leave your message.."
-                  style={{ height: "100px" }}
-                  ref={messageRef}
-                 required></textarea>
-
-                <input type="submit" value="Send Message" className="bold w-100" />
-              </form>
-            </div>
-          </div>
+        
         </div>
       </div>
     </div>
