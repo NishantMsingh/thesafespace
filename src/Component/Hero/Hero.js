@@ -9,14 +9,14 @@ const HeroSection = () => {
           <h3 className="brand fs-1">
             Welcome 
           </h3>
-          <p className="mt-1 muskan ">
+          <p className="mt-1 muskan  slate">
             At The Safe Space we believe in the transformative power of empathy,
             kindness, and vulnerability. This is your sanctuary, where judgment
             has no place, and authenticity is celebrated. Step into a world of
             compassion and understanding, where you are free to express your
             true self, without fear or reservation.
           </p>{" "}
-          <p className="mt-1 muskan ">
+          <p className="mt-1 muskan  slate">
             Our mission is simple yet profound - to create a safe haven where
             hearts connect, and souls find solace. Here, you'll be embraced for
             who you are, and your journey towards healing and growth will be met
