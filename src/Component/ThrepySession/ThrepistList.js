@@ -9,7 +9,7 @@ const ThrepistList = () => {
       <div class="row justify-content-center align-items-center g-2">
 
       {Doctors.map((val) => (
-  <ThrepistCard doctors={val}  key={val.idphone}/>
+  <ThrepistCard doctors={val}  key={val.email}/>
 ))}
 
 

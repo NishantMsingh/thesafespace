@@ -2,7 +2,7 @@
 import React, { useState } from 'react';
 import './Header.css';
 import { CgMenuRight } from 'react-icons/cg';
-import brandlogo from "../../Assets/Images/Design.png";
+import brandlogo from "../../Assets/Images/brandimg.png";
 
 const Header = () => {
   const [menu, setMenu] = useState(false);
