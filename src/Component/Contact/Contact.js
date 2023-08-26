@@ -30,11 +30,11 @@ const Contact = () => {
       <div className="container">
         <div class="row justify-content-center align-items-start g-2">
           <div class="col-lg-5 col-md-10 col-sm-10 text-start">
-            <h2 className=" bold brand ">Contact With Us</h2>
+            <span className="brand shadow rounded pt-1 pb-1 ps-3 pe-3 select fs-3">Contact With Us</span>
             <div className="d-flex flex-column">
               <div className="d-flex flex-row align-items-center justify-content-start mt-3 pb-2">
                 <span className="contact-circle">
-                  <MdCall color={"white"} fontSize={"3rem"} />
+                  <MdCall color={"white"}  />
                 </span>
                 <div className="ps-2 pt-1">
                   <h4 className="bold text-start">Phone</h4>
@@ -43,7 +43,7 @@ const Contact = () => {
               </div>
               <div className="d-flex flex-row align-items-center justify-content-start pt-2 pb-2">
                 <span className="contact-circle">
-                  <LuMail color={"white"} fontSize={"3rem"} />
+                  <LuMail color={"white"}  />
                 </span>
                 <div className="ps-2 pt-1">
                   <h4 className="bold text-start">Mail</h4>
@@ -53,7 +53,7 @@ const Contact = () => {
 
               <div className="d-flex flex-row align-items-center justify-content-start pt-2 pb-2">
                 <span className="contact-circle">
-                  <TfiLocationPin color={"white"} fontSize={"3rem"} />
+                  <TfiLocationPin color={"white"}  />
                 </span>
                 <div className="ps-2 pt-1">
                   <h4 className="bold text-start">Address</h4>
@@ -63,7 +63,7 @@ const Contact = () => {
             </div>
           </div>
           <div className="col-lg-5 col-md-10 col-sm-10">
-          <h2 className="bold brand">Location</h2>
+          <span className="brand shadow rounded pt-1 pb-1 ps-3 pe-3 select fs-3">Location</span>
           <hr/>
           <iframe
           title="map"
