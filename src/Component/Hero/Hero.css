@@ -2,6 +2,7 @@
 .hero{
   padding: 2rem 1rem;
   max-width: 100%;
+flex-wrap: wrap-reverse;
 }
 
 
@@ -38,8 +39,6 @@
 .hero-enquiry:hover::before {
   left: 0;
 }
-
-
 
 
 
