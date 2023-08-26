@@ -48,7 +48,7 @@
     transition: all .5s ease-in-out; 
 }
 .know-more-text:hover {
-    transform: translatex(20px);
+    transform: translatex(10px);
 }
 
 @media (max-width:768px) {

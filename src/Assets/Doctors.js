@@ -41,7 +41,7 @@ const Doctors = [
         price: "2000 - 4000 INR",
         addonData:"2000 for Indian Clients & 4000 for Indian clients living abroad or clients from other nationalities",
         pic: roshniimg,
-        brief: `I’m a Trauma Informed Therapist and I use an eclectic and strengths-based approach.`,
+        brief: `I have provided professional assistance to clients spanning diverse geographical locations, addressing a wide spectrum of concerns. These encompass but are not limited to areas such as Relationship Dynamics, Occupational Stress, Strategic Career Counseling, Familial and Marital Challenges, Navigating Infidelity and Divorce, Enhancing Sexual Intimacy, Establishing Healthy Boundaries, Cultivating Self-Esteem, Overcoming Eating Disorders, Fostering Positive Body Image, Navigating Matters of Sexuality, and Proficient Financial Management. My expertise extends to encompass these realms and more, as I am committed to guiding clients towards holistic well-being and personal growth.I am passionate about creating content that encourages people to be vulnerable, self-reflective and self-accepting of themselves.`,
         specification: `I mostly work with clients between the age of 18-40. years. I have helped clients across various geographies (India, Australia, Germany, UK, Canada, New Zealand & USA) with issues related to Relationships, Work related Stress, Career Guidance, Marital & Family issues, Infidelity, Divorce, Sexual Intimacy, Boundaries, Low Self-Esteem, Eating Disorders, Body Image, Sex & Sexuality, Financial Management, etc. I also conduct various mental health awareness sessions for Corporate Employees and College Students. Some of the organizations & institute that I have worked with include, Cisco, Sify, Social Beat, iLink Digital, etc. & M.O.P.Vaishnav College, Jai Hind College, Bharti College, DPS, etc. \n I am passionate about creating content that encourages people to be vulnerable, self-reflective and self-accepting of themselves through my Instagram page - @thesubtleartofexpression`
     }
     ,
@@ -102,7 +102,7 @@ const Doctors = [
         description: "Expressive Arts Therapy Practitioner",
         location: "Delhi",
         experience: "2 Year",
-        price: " 1200-1500",
+        price: " 1200-1500 INR",
         pic: Kratiimg,
         brief: ` 
         cases that are in the bounds of a counselling psychologist like lifestyle issues, career,.         `,
