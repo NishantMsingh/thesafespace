@@ -7,7 +7,7 @@
 
 }
 .w-30{
-    width: 30%;
+    width: 35%;
 }
 .icon-body{
     padding: 10px;
@@ -21,12 +21,12 @@
 
 }
 .rounded-50{
-    border-radius: 50%;
+    border-radius: 50% 50% 25% 50%;
 }
 .dotted{
     width: 90%;
  
-    border-bottom: 3px dashed  #11111144;
+    border-bottom: 1px dashed  #11111144;
     margin: 5px 0px;
 }
 .know-more {
