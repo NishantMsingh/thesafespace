@@ -18,7 +18,7 @@ const Doctors = [
     Certification in Trauma Informed Care - TISS Mumbai `,
         location: "Delhi",
         experience: "1 Year",
-        price: "1500 (with a sliding scale)",
+        price: "1500INR [Sliding scale available]",
         pic: priyankimg,
 
         brief: `Hello! I’m Priyanka , an expressive arts therapy practitioner and an artist! 
@@ -67,7 +67,7 @@ const Doctors = [
         description: "MSc Counselling psychology",
         location: "Delhi",
         experience: "1 Year",
-        price: " 1200-1500 for a session",
+        price: " 1200-1500INR",
         pic: Devanshiimg,
         brief: ` My name is ishani ahuja and I am an RCI licensed child , adolescent and young adult psychologist working with individuals , families from a spectrum of Neurotypical to Neurodivergent  beings. \n I am a trained and certified expressive arts based therapy practitioner,  play therapist and work in therapy  using  a trauma informed lens , engrained in mindfulness,  and eclectic  healing techniques for  making meaning of our own lives, through our own voices.  \n The nature of work involves all kinds of eclectic novel ways using arts, music, dance, poetry, movement, narratives, movie analysis, book /passage reviewing , metaphorical insights to make sense of our own world through our voice.`,
         specification: `
@@ -82,7 +82,7 @@ const Doctors = [
         description: "BA Psychology from DU. Msc in organisational psychology from Christ University. Post graduate diploma in counselling psychology from St Xaviers College.",
         location: "Delhi",
         experience: "2 Year",
-        price: " 1500INR for a session",
+        price: " 1500INR",
         pic: Asthaimg,
         brief: ` 
         I am an eclectic approach oriented therapist, I am queer affirmative and also open to cases that are in the bounds of a counselling psychologist like lifestyle issues, career, self esteem, teenage year issues, relationship issues, personal growth etc.         `,
