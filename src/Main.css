@@ -11,6 +11,10 @@
   transition: all 0.5s;
 }
 
+.bg-safeplace {
+  background-color: rgb(255, 82, 161);
+}
+
 .slate {
   color: rgba(84, 89, 95, 0.5764705882);
 }

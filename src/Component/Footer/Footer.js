@@ -1,7 +1,7 @@
 import "./Footer.css";
 const Footer = () => {
   return (
-    <section id="hero" className="bg-light">
+    <section  className="bg-light">
       <div className="row d-flex align-items-center justify-content-center footer ">
         <div className="col-lg-10 col-md-10 col-sm-10">
           <h2 className="bold brand">Location</h2>
@@ -19,9 +19,10 @@ const Footer = () => {
         </div>
      
       </div>
-      <div className="d-flex align-items-center justify-content-center flex-column bg-light">
+      <div className="d-flex align-items-center justify-content-center flex-column bg-safeplace">
    
-      <p>&copy; 2023 XYG. All rights reserved.</p>
+      <p className="pt-4">&copy; 2023 The Safe Place. All rights reserved.</p>
+     
     
       </div>
     </section>
