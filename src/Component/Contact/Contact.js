@@ -29,7 +29,7 @@ const Contact = () => {
     >
       <div className="container">
         <div class="row justify-content-center align-items-start g-2">
-          <div class="col-lg-10 col-md-10 col-sm-10 text-center">
+          <div class="col-lg-5 col-md-10 col-sm-10 text-start">
             <h2 className=" bold brand ">Contact With Us</h2>
             <div className="d-flex flex-column">
               <div className="d-flex flex-row align-items-center justify-content-start mt-3 pb-2">
@@ -62,6 +62,20 @@ const Contact = () => {
               </div>
             </div>
           </div>
+          <div className="col-lg-5 col-md-10 col-sm-10">
+          <h2 className="bold brand">Location</h2>
+          <hr/>
+          <iframe
+          title="map"
+            src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d235787.0481262719!2d88.36389500000001!3d22.572646!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1691065380227!5m2!1sen!2sin"
+            width="100%"
+            height="200"
+            className="rounded"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
         
         </div>
       </div>
