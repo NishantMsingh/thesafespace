@@ -18,7 +18,7 @@ const ThrepistCard = ({doctors}) => {
       <h6 className='d-flex flex-row align-items-center gap-2'> <span className='icon-body'><MdWorkOutline fontSize={"1.7rem"}/></span>{doctors.experience}</h6>
       <h6 className='d-flex flex-row align-items-center gap-2'> <span className='icon-body'><PiCurrencyInr fontSize={"1.7rem"}/></span>{doctors.price}</h6>
       <h6 className='d-flex flex-row align-items-center gap-2'> <span className='icon-body'><TfiLocationPin fontSize={"1.7rem"}/></span>{doctors.location}</h6>
-      <Link to="/threpist" className='know-more d-flex flex-row align-items-center gap-2 justify-content-center'><span className='know-more-text'>Know more<FiChevronRight fontSize={"1.7rem"}/></span></Link>
+      <button className='know-more d-flex flex-row align-items-center gap-2 justify-content-center'><span className='know-more-text'>Know more<FiChevronRight fontSize={"1.7rem"}/></span></button>
        
 
      

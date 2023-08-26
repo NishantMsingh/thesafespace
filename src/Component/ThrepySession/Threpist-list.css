@@ -60,5 +60,8 @@
         border-radius: 50% 50% 50% 50%;
         margin: 5px 0px;
     }
+    .know-more{
+        margin-right: 10px;
+    }
 
 }

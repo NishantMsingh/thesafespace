@@ -1,5 +1,6 @@
 import priyankimg from "./Images/PriyankqRawlani.png";
 import roshniimg from "./Images/RaushniKhanna.png";
+import ishaniimg from "./Images/IshaniAhuja.png";
 
 
 const Doctors = [
@@ -38,6 +39,21 @@ const Doctors = [
         pic: roshniimg,
         brief: `I’m a Trauma Informed Therapist and I use an eclectic and strengths-based approach.`,
         specification: `I mostly work with clients between the age of 18-40. years. I have helped clients across various geographies (India, Australia, Germany, UK, Canada, New Zealand & USA) with issues related to Relationships, Work related Stress, Career Guidance, Marital & Family issues, Infidelity, Divorce, Sexual Intimacy, Boundaries, Low Self-Esteem, Eating Disorders, Body Image, Sex & Sexuality, Financial Management, etc. I also conduct various mental health awareness sessions for Corporate Employees and College Students. Some of the organizations & institute that I have worked with include, Cisco, Sify, Social Beat, iLink Digital, etc. & M.O.P.Vaishnav College, Jai Hind College, Bharti College, DPS, etc. \n I am passionate about creating content that encourages people to be vulnerable, self-reflective and self-accepting of themselves through my Instagram page - @thesubtleartofexpression`
+    }
+    ,
+    {
+        idphone: "9702712979",
+        pronoun: "She/her",
+        name: "Ishani Ahuja",
+        email: "ahujaishani@gmail.com",
+        phone: "9702712979",
+        description: "Licensed Rehabilitation Counselor (RCI),Licensed Expressive Arts and Play Therapist",
+        location: "Delhi",
+        experience: "8 Years",
+        price: " 2000-2800 , also subjective to meet clients contextual needs",
+        pic: ishaniimg,
+        brief: `My name is ishani ahuja and I am an RCI licensed child , adolescent and young adult psychologist working with individuals , families from a spectrum of Neurotypical to Neurodivergent  beings. \n I am a trained and certified expressive arts based therapy practitioner,  play therapist and work in therapy  using  a trauma informed lens , engrained in mindfulness,  and eclectic  healing techniques for  making meaning of our own lives, through our own voices. The nature of work involves all kinds of eclectic novel ways using arts, music, dance, poetry, movement, narratives, movie analysis, book /passage reviewing , metaphorical insights to make sense of our own world through our voice.`,
+        specification: `Play therapy both child and  adult, expressive arts based therapy, trauma informed therapy , inner child healing , emdr therapy, chakra healing , energy work healer , somatic healing, emotional freedom techniques `
     }
 
 ]
