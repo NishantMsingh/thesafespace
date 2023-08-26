@@ -1,0 +1,52 @@
+.threpist-card{
+    background-color: #ff52a034;
+  border-radius: 8px;
+    margin: 3px 3px;
+    padding: 3px 10px;
+    min-height: 320px;
+
+}
+.w-30{
+    width: 30%;
+}
+.icon-body{
+    padding: 10px;
+    display: flex;
+    width: 40px;
+    height: 40px;
+    align-items: center;
+    justify-content:center;
+    border-radius: 50%;
+    background-color: #ff52a044;
+
+}
+.rounded-50{
+    border-radius: 50%;
+}
+.dotted{
+    width: 90%;
+ 
+    border-bottom: 3px dashed  #11111144;
+    margin: 5px 0px;
+}
+.know-more {
+    padding: 5px 10px;
+    border: none;
+    text-decoration: none;
+    color: rgb(58, 58, 58);
+    background-color: #ff52a044;
+    font-size: 16px;
+    font-weight: 500;
+    transition: all .5s ease-in-out;
+    border-radius: 4px;
+
+}
+.know-more:hover{
+    background-color: #ff52a088;
+}
+.know-more-text{
+    transition: all .5s ease-in-out; 
+}
+.know-more-text:hover {
+    transform: translatex(20px);
+}
