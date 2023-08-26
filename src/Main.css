@@ -19,6 +19,12 @@
   color: rgba(84, 89, 95, 0.5764705882);
 }
 
+.select {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
+
 .contact-circle {
   padding: 20px;
   border-radius: 50%;

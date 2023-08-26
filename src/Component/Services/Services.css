@@ -3,17 +3,20 @@
     max-width: 100%;
   }
   
-  .card-button {
-
- 
+  .card-button { 
     color: black;
+    border: 1px solid rgb(255,82,161);
     background-color:var(--e-global-color-accent);
-        border:none;
+
     border-radius: 3px;
     padding: 6px 35px;
-    position: relative;
-    overflow: hidden;
-    transition: transform 0.3s;
+  
+  
+    transition: all 0.3s;
+  }
+  .card-button:hover {
+    background-color:   rgb(255,82,161);
+    color: black;
   }
   .card{
     border: none;
@@ -22,20 +25,7 @@
     transition: all .5s ease-in-out;
   }
 
-  .card-button::before {
-    content: 'Proceed now';
-   display: flex;
-   align-items: center;
-   justify-content: center;
-    position: absolute;
-    top: 0;
-    left: -100%;
-    width: 100%;
-    height: 100%;
-    color: rgb(255, 255, 255);
-    background-color: var(--title-color);
-    transition: left 0.4s;
-  }
+ 
   
   .card-button:hover::before {
     left: 0;

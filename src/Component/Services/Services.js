@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 const Services = () => {
   return (
     <section id="services" className="text-center mt-5">
-         <span className="brand shadow rounded p-1">
+         <span className="brand shadow rounded pt-1 pb-1 ps-3 pe-3 select fs-3">
           Services
           </span>
         <div className="d-flex flex-wrap align-items-center justify-content-center mt-5 mb-5 gap-5">
@@ -16,7 +16,7 @@ const Services = () => {
   <div class="card-body text-start">
     <h5>BOOK A THERAPY SESSION WITH US</h5>
   
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <p class="card-text fs-6">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
     <Link to="/Threpy"> <button className="card-button bold">BOOK NOW</button> </Link>
 
   </div>
@@ -26,7 +26,7 @@ const Services = () => {
   <div class="card-body text-start">
     <h5>EXPLORE OUR TRAINING / CERTIFICATION PROGRAMS</h5>
   
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <p class="card-text fs-6">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
     <Link to="/Training"> <button className="card-button bold">ENROLL NOW</button> </Link>
   </div>
 </div> 
@@ -35,7 +35,7 @@ const Services = () => {
   <div class="card-body text-start">
     <h5>CONTACT US FOR CORPORATE WORKSHOPS & TRAINING</h5>
   
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <p class="card-text fs-6">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
     <Link to="/WorkShop"> <button className="card-button bold">CONTACT US</button> </Link>
   </div>
 </div>
