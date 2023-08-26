@@ -32,12 +32,12 @@ const Contact = () => {
           <div class="col-lg-10 col-md-10 col-sm-10 text-center">
             <h2 className=" bold brand ">Contact With Us</h2>
             <div className="d-flex flex-column">
-              <div className="d-flex flex-row align-items-center justify-content-center mt-3 pb-2">
+              <div className="d-flex flex-row align-items-center justify-content-start mt-3 pb-2">
                 <span className="contact-circle">
                   <MdCall color={"white"} fontSize={"3rem"} />
                 </span>
                 <div className="ps-2 pt-1">
-                  <h4 className="bold">Phone</h4>
+                  <h4 className="bold text-start">Phone</h4>
                   <span className="slate bold">+91-6209220442</span>
                 </div>
               </div>
@@ -46,10 +46,8 @@ const Contact = () => {
                   <LuMail color={"white"} fontSize={"3rem"} />
                 </span>
                 <div className="ps-2 pt-1">
-                  <h4 className="bold">Mail</h4>
-                  <span className="slate bold">
-                    nishantkumarsingh16019@gmail.com
-                  </span>
+                  <h4 className="bold text-start">Mail</h4>
+                  <span className="slate bold">nishant@gmail.com</span>
                 </div>
               </div>
 
@@ -58,7 +56,7 @@ const Contact = () => {
                   <TfiLocationPin color={"white"} fontSize={"3rem"} />
                 </span>
                 <div className="ps-2 pt-1">
-                  <h4 className="bold">Address</h4>
+                  <h4 className="bold text-start">Address</h4>
                   <span className="slate bold">70052,kolkata, India</span>
                 </div>
               </div>
