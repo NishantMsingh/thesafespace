@@ -32,9 +32,7 @@ const About = () => {
           {doctors.brief}
           </p>
           
-          <p>
-          {doctors.specification}
-          </p>
+        
      
           
               <button className="card-button bold"><a href={`mailto:${doctors.email}`}>Email us</a>  </button>{" "}
