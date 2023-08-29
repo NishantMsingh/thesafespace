@@ -9,7 +9,7 @@ import muskanimg from "./Images/aboutimg.jpeg";
 
 const Doctors = [
      {
-        idphone: "9702712979",
+        idphone: "6209220442",
         pronoun: "She/her",
         name: "Muskaan Jaiswal",
         email: "priyankarawlani18@gmail.com",

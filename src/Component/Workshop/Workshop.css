@@ -13,11 +13,37 @@
     border: 1px solid transparent;
     transition: all .5s ease-in-out;
   }
-  .whatapp-btn:hover{
+  .whatapp-btn-about{
+    display: inline;
+    align-items: center;
+    padding: 10px 12px;
+    font-size: 14px;
+    background-color: #128c7e00;
+
+    font-weight: 300;
+    text-decoration: none;
+    border-radius:4px;
+    max-width: 50%;
     border: 1px solid #128c7e;
     color: #128c7e;;
-    background-color: #128c7e00;
+    margin-top: 10px;
+  
+    transition: all .5s ease-in-out;
   }
+
+  .whatapp-btn:hover{
+    border: 1px solid #128c7e;
+    color: white;
+    background-color: #128c7e;
+  
+  }
+  .whatapp-btn-about:hover{
+    color: white;
+    background-color: #128c7e00;
+    background-color: #128c7e;
+  }
+
+
   .title-workshop::before,
   .title-workshop::after {
     content: '';

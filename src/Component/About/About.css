@@ -4,7 +4,12 @@
 .w-40{
     width: 40%;
 }
-
+.min-100{
+    min-height: 80vh;
+}
+.card-button{
+    min-height: 20%;
+}
 .flex-www{
     flex-direction: row;
 }
