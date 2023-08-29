@@ -4,6 +4,7 @@
     margin: 3px 3px;
     padding: 3px 10px;
     min-height: 320px;
+    transition: all .5s ease-in-out;
 }
 .w-30{
     width: 35%;
@@ -25,9 +26,12 @@
 }
 .dotted{
     width: 90%;
- 
     border-bottom: 1px dashed  #11111144;
     margin: 5px 0px;
+}
+
+.threpist-card:hover{
+  transform: scale(1.02);
 }
 .know-more {
     padding: 5px 10px;

@@ -13,6 +13,9 @@
 .flex-www{
     flex-direction: row;
 }
+.text-safe{
+    color:  rgb(255,82,161);
+}
 @media (max-width:800px) {
     .flex-www{
         flex-direction: column;
