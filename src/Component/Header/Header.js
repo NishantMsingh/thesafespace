@@ -1,7 +1,7 @@
 // Header.js
 import React, { useState } from 'react';
 import './Header.css';
-import { CgMenuRight } from 'react-icons/cg';
+import { HiOutlineMenuAlt4 } from 'react-icons/hi';
 import brandlogo from "../../Assets/Images/brandimg.png";
 
 const Header = () => {
@@ -36,7 +36,7 @@ const Header = () => {
     
      
       <span className="header-burger">
-        <CgMenuRight fontSize="2rem" color="black" onClick={menuHandler} />
+        <HiOutlineMenuAlt4 fontSize="2rem" color="black" onClick={menuHandler} />
       </span>
    </div>
      
