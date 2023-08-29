@@ -2,16 +2,18 @@
 import React, { useState } from 'react';
 import './Header.css';
 import { HiOutlineMenuAlt4 } from 'react-icons/hi';
+import { RxCross2 } from 'react-icons/rx';
 import brandlogo from "../../Assets/Images/brandimg.png";
 
 const Header = () => {
   const [menu, setMenu] = useState(false);
-
+   const [truee,settrue]=useState(true);
   const menuHandler = () => {
    
     if(window.innerWidth<=844)
     {
       setMenu(!menu);
+      settrue(!truee);
     }
   };
 
@@ -36,7 +38,9 @@ const Header = () => {
     
      
       <span className="header-burger">
-        <HiOutlineMenuAlt4 fontSize="2rem" color="black" onClick={menuHandler} />
+{      truee&&  <HiOutlineMenuAlt4 fontSize="2rem" color="black" onClick={menuHandler} />
+}      { !truee&& <RxCross2 fontSize="2rem" color="black" onClick={menuHandler} />}
+
       </span>
    </div>
      
