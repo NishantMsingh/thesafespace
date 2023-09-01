@@ -16,7 +16,7 @@ const About = () => {
             className="img-fluid rounded-50 w-40"
           />
           <div className="ms-1 text-center">
-            <h5 className="brand text-safe">{doctors.name}(She/Her)</h5>
+            <h5 className="brand text-safe fs-3">{doctors.name}(She/Her)</h5>
             <h6></h6>
             <h6><span className="slate">{doctors.description}</span><span/></h6>
             <h6>Price : <span className="slate">{doctors.price}</span><span/></h6>

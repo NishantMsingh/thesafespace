@@ -5,7 +5,7 @@ const Footer = () => {
      
       <div className="d-flex align-items-center justify-content-center flex-column bg-safeplace">
    
-      <p className="pt-4">&copy; 2023 The Safe Place. All rights reserved.</p>
+      <p className="pt-4">&copy; 2023 The Safe Space. All rights reserved.</p>
      
     
       </div>
