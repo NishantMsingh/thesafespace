@@ -94,7 +94,7 @@ const Training = () => {
         </p>
       </div>
  <div>
- <a className="whatapp-btn" href="https://wa.me/916209220442"><BsWhatsapp fontSize={'2rem'} color={"#4CC459"}/><span className="ms-1 text-center">CONTACT US</span></a>
+ <a className="whatapp-btn" href="https://wa.me/917904730572"><BsWhatsapp fontSize={'2rem'} color={"#4CC459"}/><span className="ms-1 text-center">CONTACT US</span></a>
 
  </div>
     </div>
