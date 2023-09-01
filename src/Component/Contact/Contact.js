@@ -30,7 +30,7 @@ const Contact = () => {
       <div className="container">
         <div class="row justify-content-center align-items-start g-2">
           <div class="col-lg-5 col-md-10 col-sm-10 text-start">
-            <span className="brand shadow rounded pt-1 pb-1 ps-3 pe-3 select fs-3">Contact With Us</span>
+            {/* <span className="brand shadow rounded pt-1 pb-1 ps-3 pe-3 select fs-3">Contact With Us</span> */}
             <div className="d-flex flex-column">
               <div className="d-flex flex-row align-items-center justify-content-start mt-3 pb-2">
                 <span className="contact-circle">
@@ -57,7 +57,7 @@ const Contact = () => {
                 </span>
                 <div className="ps-2 pt-1">
                   <h4 className="bold text-start">Address</h4>
-                  <span className="slate bold">70052,kolkata, India</span>
+                  <span className="slate bold">Middleton Street Egmore - 600008, Chennai</span>
                 </div>
               </div>
             </div>

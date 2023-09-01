@@ -17,8 +17,8 @@ const Doctors = [
         description: `MSc. Clinical Psychology \n
          \n PGD Expresive art therapy, Xaviers \n  Psychologist at the bariatric department, \n 
         Apolo Hospital`,
-        location: "Delhi",
-        experience: "1.5 Year",
+        
+        experience: "1.5 Years",
         price: "1500-2000 INR",
         pic: muskanimg,
 
@@ -35,7 +35,7 @@ const Doctors = [
         description: `MSc in Psychology (HRDM) - Christ University, Bangalore  \n
     PG Diploma in Integrated Counselling - Nibbana accredited by Madras School of Social Work \n
     Certification in Trauma Informed Care - TISS Mumbai `,
-        location: "Delhi",
+    
         experience: "1 Year",
         price: "1500 INR [Sliding scale available]",
         pic: priyankimg,
@@ -55,7 +55,7 @@ const Doctors = [
         email: "raushnikhanna@gmail.com",
         phone: "9702712979",
         description: "Expressive Arts Therapy Practitioner",
-        location: "Delhi",
+        
         experience: "2.8 Years",
         price: "2000 - 4000 INR",
         addonData: "2000 for Indian Clients & 4000 for Indian clients living abroad or clients from other nationalities",
@@ -71,7 +71,7 @@ const Doctors = [
         email: "ahujaishani@gmail.com",
         phone: "9702712979",
         description: "Licensed Rehabilitation Counselor (RCI),Licensed Expressive Arts and Play Therapist",
-        location: "Delhi",
+        
         experience: "8 Years",
         price: " 2000-2800 INR [Sliding scale available]",
         pic: ishaniimg,
@@ -85,12 +85,13 @@ const Doctors = [
         email: " itsniramaya99@gmail.com",
         phone: "9113074429",
         description: "MSc Counselling psychology",
-        location: "Delhi",
+  
         experience: "1 Year",
         price: " 1200-1500 INR",
         pic: Devanshiimg,
-        brief: ` My name is ishani ahuja and I am an RCI licensed child , adolescent and young adult psychologist working with individuals , families from a spectrum of Neurotypical to Neurodivergent  beings. \n I am a trained and certified expressive arts based therapy practitioner,  play therapist and work in therapy  using  a trauma informed lens , engrained in mindfulness,  and eclectic  healing techniques for  making meaning of our own lives, through our own voices.  \n The nature of work involves all kinds of eclectic novel ways using arts, music, dance, poetry, movement, narratives, movie analysis, book /passage reviewing , metaphorical insights to make sense of our own world through our voice.`,
+        brief: `Hi, I am a counselling psychologist. I have around 450 hours of experience with counselling and deal with relationship issues, body image, self esteem, work related issues, trauma, sexual health, grief and loss and familial issues among others. I use a holistic approach including the mind, soul and the body. I incorporate a lot of somatic work with humanistic and existential theories and gestalt techniques.`,
         specialisation: `
+
         Gestalt therapy, Acceptance and commitment therapy        `
     },
     {
@@ -100,8 +101,8 @@ const Doctors = [
         email: " itsniramaya99@gmail.com",
         phone: "9113074429",
         description: "BA Psychology from DU. Msc in organisational psychology from Christ University. Post graduate diploma in counselling psychology from St Xaviers College.",
-        location: "Delhi",
-        experience: "2 Year",
+       
+        experience: "2 Years",
         price: " 1500 INR",
         pic: Asthaimg,
         brief: ` 
@@ -119,8 +120,8 @@ const Doctors = [
         email: "kratigirhotra10@gmail.com ",
         phone: "9113074429",
         description: "Expressive Arts Therapy Practitioner",
-        location: "Delhi",
-        experience: "2 Year",
+        
+        experience: "2 Years",
         price: " 1200-1500 INR",
         pic: Kratiimg,
         brief: `I'm Krati Girhotra, and my expertise lies in the field of Expressive Arts Therapy. I've blended my intensive training in expressive arts and counseling with an intersectional, trauma-informed, queer-affirmative, and culturally relevant lens. Through a multimodal approach, I harnesses the transformative power of playfulness, empathy, and collaboration in my work with a wide spectrum of children & adults, unlocking immense potential for therapeutic growth.`
