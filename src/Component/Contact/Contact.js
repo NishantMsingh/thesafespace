@@ -1,27 +1,13 @@
 
-import React, { useRef } from "react";
+import React from "react";
 import "./Contact.css";
 import { TfiLocationPin } from "react-icons/tfi";
 import { LuMail } from "react-icons/lu";
 import { MdCall } from "react-icons/md";
 const Contact = () => {
-  const nameRef = useRef();
-  const emailRef = useRef();
-  const messageRef = useRef();
 
-  const ContactFormhandler = (event) => {
-    event.preventDefault();
-    let obj = {
-      name: nameRef.current.value,
-      email: emailRef.current.value,
-      message: messageRef.current.value,
-    };
-    nameRef.current.value = "";
-    emailRef.current.value = "";
-    messageRef.current.value = "";
-    console.log(obj);
-    alert("Thank you for contacting us! We will get back to you soon.");
-  };
+
+  
   return (
     <div
       id="contact"
