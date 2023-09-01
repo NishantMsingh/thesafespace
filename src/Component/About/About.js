@@ -38,7 +38,7 @@ const About = () => {
               <button className="card-button bold"><a href={`mailto:${doctors.email}`}>Email us</a>  </button>{" "}
             
 
-            {doctorsid=="6209220442"?<a className="whatapp-btn-about" href="https://wa.me/916209220442"><BsWhatsapp fontSize={'1rem'} color={"#4CC459"}/><span className="ms-1 text-center">Whats'up us</span></a>:""}
+            {doctorsid=="7904730572"?<a className="whatapp-btn-about" href="https://wa.me/917904730572"><BsWhatsapp fontSize={'1rem'} color={"#4CC459"}/><span className="ms-1 text-center">Whats'up us</span></a>:""}
         </div>
       </div>
     </div>
