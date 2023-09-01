@@ -22,7 +22,7 @@ const Header = () => {
   
   <a class="navbar-brand" href="/" title='The safe place'>
     <img src={brandlogo}  class="d-inline-block  brandimg" alt="The safe place"/>
-     <span className='brand1 pos-rel'>  THE SAFE PLACE</span>
+     <span className='brand1 pos-rel'>  THE SAFE SPACE</span>
   </a>
      
     <div>
