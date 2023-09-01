@@ -67,7 +67,7 @@ const Contact = () => {
           <hr/>
           <iframe
           title="map"
-            src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d235787.0481262719!2d88.36389500000001!3d22.572646!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1691065380227!5m2!1sen!2sin"
+            src="https://www.google.com/maps/embed?pb=!1m26!1m12!1m3!1d1681.9283779158716!2d80.25853646440346!3d13.071213645513179!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m11!3e0!4m3!3m2!1d13.070988999999999!2d80.259951!4m5!1s0x3a52660de1cefc27%3A0x3216e1cd36230db8!2sMiddleton%20St%2C%20Egmore%2C%20Chennai%2C%20Tamil%20Nadu%20600008!3m2!1d13.0715379!2d80.2599611!5e0!3m2!1sen!2sin!4v1693560550171!5m2!1sen!2sin"
             width="100%"
             height="200"
             className="rounded"
@@ -75,6 +75,8 @@ const Contact = () => {
             loading="lazy"
             referrerpolicy="no-referrer-when-downgrade"
           ></iframe>
+
+{/* <iframe src="https://www.google.com/maps/embed?pb=!1m26!1m12!1m3!1d1681.9283779158716!2d80.25853646440346!3d13.071213645513179!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m11!3e0!4m3!3m2!1d13.070988999999999!2d80.259951!4m5!1s0x3a52660de1cefc27%3A0x3216e1cd36230db8!2sMiddleton%20St%2C%20Egmore%2C%20Chennai%2C%20Tamil%20Nadu%20600008!3m2!1d13.0715379!2d80.2599611!5e0!3m2!1sen!2sin!4v1693560550171!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> */}
         </div>
         
         </div>
