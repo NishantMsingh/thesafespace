@@ -24,7 +24,9 @@
     box-shadow: 0px 10px 10px 10px rgba(160, 160, 160, 0.274);
     transition: all .5s ease-in-out;
   }
-
+.mx-hight{
+  min-height: 25rem;
+}
  
   
   .card-button:hover::before {
