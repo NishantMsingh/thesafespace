@@ -25,7 +25,7 @@ const Header = () => {
      <span className='brand1 pos-rel'>  THE SAFE SPACE</span>
   </a>
      
-    <div>
+    {/* <div>
       <nav className={menu ? 'heigh' : ''}>
       <span> <a className='anchor' href='#hero' onClick={menuHandler}>HOME</a></span>
       <span><a className='anchor' href='#services' onClick={menuHandler}>SERVICES</a></span>
@@ -33,7 +33,7 @@ const Header = () => {
       <span><a className='anchor' href='#services' onClick={menuHandler}>TRAINING</a></span>
   
     </nav>
-  </div>
+  </div> */}
      <div> 
     
      
