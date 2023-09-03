@@ -1,6 +1,7 @@
 
 import "./Services.css";
-import img1 from "../../Assets/Images//appoint.jpg"
+import workshop from "../../Assets/Images/workshop.JPG";
+import thereptSession from "../../Assets/Images/thereptSession.JPG";
 import img2 from "../../Assets/Images//train.jpg"
 import { Link } from "react-router-dom";
 
@@ -12,7 +13,7 @@ const Services = () => {
           </span>
         <div className="d-flex flex-wrap align-items-center justify-content-center mt-5 mb-5 gap-5">
         <div class="card" style={{width:" 20rem"}}>
-  <img src={img1} class="card-img-top" alt="..."/>
+  <img src={thereptSession} class="card-img-top" alt="..."/>
   <div class="card-body text-start">
     <h5>BOOK A THERAPY SESSION WITH US</h5>
   
@@ -31,7 +32,7 @@ const Services = () => {
   </div>
 </div> 
 <div class="card" style={{width:" 20rem"}}>
-  <img src={img1} class="card-img-top" alt="..."/>
+  <img src={workshop} class="card-img-top" alt="..."/>
   <div class="card-body text-start">
     <h5>CONTACT US FOR CORPORATE WORKSHOPS & TRAINING</h5>
   
