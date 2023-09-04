@@ -17,8 +17,22 @@ const About = () => {
           />
           <div className="ms-1 text-center">
             <h5 className="brand text-safe fs-3">{doctors.name}(She/Her)</h5>
-            <h6></h6>
-            <h6><span className="slate">{doctors.description}</span><span/></h6>
+            <h6>
+  <span className="slate">
+    {doctorsid === "7904730572" ? (
+      <span className="slate">
+        MSc. Clinical Psychology <br />
+        PGD Expressive art therapy, Xaviers <br />
+        Psychologist at the bariatric department, <br/> Apolo Hospital
+      </span>
+    ) : (
+      doctors.description
+    )}
+  </span>
+  <span />
+</h6>
+
+           
             <h6>Price : <span className="slate">{doctors.price}</span><span/></h6>
             <h6>Experience : <span className="slate">{doctors.experience}</span><span/></h6>
      

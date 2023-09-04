@@ -13,7 +13,10 @@ const Doctors = [
         name: "Muskaan Jaiswal",
         email: "priyankarawlani18@gmail.com",
         phone: "9702712979",
-        description: `MSc. Clinical Psychology \nPGD Expressive art therapy, Xaviers \nPsychologist at the bariatric department, \nApolo Hospital`,
+        description: `MSc. Clinical Psychology\n
+PGD Expressive art therapy, Xaviers\n
+Psychologist at the bariatric department,\n
+Apolo Hospital`,
         experience: "1.5 Years",
         price: "1500-2000 INR",
         pic: muskanimg,
