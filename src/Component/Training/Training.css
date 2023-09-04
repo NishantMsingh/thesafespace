@@ -3,7 +3,9 @@
  
     font-size: 2.7rem;
   }
-  
+  .primary-pinki{
+    color:  rgb(255,82,161);
+  }
   .title-training::before,
   .title-training::after {
     content: '';

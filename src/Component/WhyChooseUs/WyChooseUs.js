@@ -7,15 +7,15 @@ const WyChooseUs = () => {
      <div className="mx-auto w-70">
         
       <p className="mt-5 text-start">
-        <span className="bold fs-4">Customized Solutions:</span> We understand that every organization is unique.
+        <span className="bold primary-pinki">Customized Solutions:</span> We understand that every organization is unique.
         Our workshops are tailored to your specific needs, ensuring that your
         team gains relevant skills and knowledge.
      <br/>
-     <span className="bold fs-4"> Expert Guidance:</span>  With a deep understanding of psychology and workplace
+     <span className="bold primary-pinki "> Expert Guidance:</span>  With a deep understanding of psychology and workplace
         dynamics, we are committed to delivering workshops that are insightful,
         engaging, and transformative.
     <br/>
-      <span  className="bold fs-4">  Lasting Impact:</span> Our workshops are not just events - they are experiences
+      <span  className="bold primary-pinki">  Lasting Impact:</span> Our workshops are not just events - they are experiences
         that inspire lasting positive change.
       <br/>
         Invest in the well-being and success of your team today. Book a

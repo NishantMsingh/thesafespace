@@ -5,7 +5,7 @@ import {BsWhatsapp} from "react-icons/bs"
 const Training = () => {
   return (
     <div className="container mt-5 mb-5 p-3 d-flex align-items-center justify-content-center flex-column">
-      <h6 className="brand title-training">TRAINING/CERTIFICATION PROGRAMS</h6>
+      <h6 className="brand title-workshop text-center">TRAINING/CERTIFICATION PROGRAMS</h6>
       <hr/>
       <nav aria-label="breadcrumb fs-6">
         <ol class="breadcrumb">
@@ -59,20 +59,20 @@ const Training = () => {
           Why Choose Our Training Programs?
         </h1>
         <p>
-          <span className="fs-5"> Experienced Faculty:</span> Our trainers bring
+          <span className="primary-pinki"> Experienced Faculty:</span> Our trainers bring
           a wealth of real-world experience and academic expertise, ensuring a
           comprehensive and insightful learning experience.{" "}
         </p>
         <p>
           {" "}
-          <span className="fs-5"> Practical Application:</span>
+          <span className="primary-pinki"> Practical Application:</span>
           Our trainers bring a wealth of real-world experience and academic
           expertise, ensuring a comprehensive and insightful learning
           experience.
         </p>
         <p>
           {" "}
-          <span className="fs-5"> Diverse Learning Paths:</span>
+          <span className="primary-pinki"> Diverse Learning Paths:</span>
           Whether you're an aspiring psychologist, a professional seeking
           personal growth, or an organization aiming to optimize performance,
           our programs cater to various needs. Lifelong Impact: The skills and
