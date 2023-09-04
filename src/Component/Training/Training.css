@@ -1,5 +1,7 @@
 .title-training {
     position: relative;
+ 
+    font-size: 2.7rem;
   }
   
   .title-training::before,
@@ -20,10 +22,22 @@
   .title-training::after {
     right: -80px;
   }
+  @media (max-width:992px) {
    
+  .title-training {
+    position: relative;
+  
+    font-size: 2rem;
+  }
+  }
   @media (max-width:768px) {
     .title-training::before,
   .title-training::after {
     width: 0px;
+  }
+  .title-training {
+    position: relative;
+  
+    font-size: 1rem;
   }
   }

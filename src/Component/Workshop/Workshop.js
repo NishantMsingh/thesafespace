@@ -5,7 +5,7 @@ import {BsWhatsapp} from "react-icons/bs";
 const Workshop = () => {
   return (
     <div className="  container mt-5 mb-5 d-flex align-items-center justify-content-center flex-column">
-      <h1 className="brand title-workshop text-center">WORKSHOP AND TRANING PROGRAMS</h1>
+      <h3 className="brand title-workshop text-center">WORKSHOP AND TRANING PROGRAMS</h3>
       <button className="card-button bold">ENROLL NOW</button>
 
       <div className="text-start mt-4 w-70">
