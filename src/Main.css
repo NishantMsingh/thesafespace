@@ -19,6 +19,10 @@
   color: rgba(0, 0, 0, 0.5764705882);
 }
 
+.yellow {
+  color: #edf24b;
+}
+
 .text-nor {
   font-weight: 300;
 }
