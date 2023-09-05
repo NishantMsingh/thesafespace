@@ -62,5 +62,8 @@
          margin: 0px 10px;
         background-color:  rgba(255, 82, 160, 0.37);;
     }
+    .carousel-inner{
+        width: 85%;
+    }
   }
   
