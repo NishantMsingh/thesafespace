@@ -123,7 +123,7 @@ const Reviews = () => {
                         data-bs-slide="prev"
                     >
 
-                        <span className="fs-1"><GrFormPrevious /></span>
+                        <span className="fs-1"><GrFormPrevious  fontSize={"5rem"} opacity={".5"}/></span>
                     </button>
                     <button
                         class="carousel-control-next  text-dark"
@@ -132,7 +132,7 @@ const Reviews = () => {
                         data-bs-slide="next"
                     >
 
-                        <span className="fs-1"><GrFormNext /></span>
+                        <span className="fs-1"><GrFormNext fontSize={"5rem"} opacity={".5"}/></span>
                     </button>
                 </div>
             </div>
