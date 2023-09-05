@@ -90,6 +90,15 @@
     .carousel-inner{
         width: 90%;
     }
-  
+    .carousel-control-prev{
+    
+        left: -10px;
+      
+    }
+    .carousel-control-next{
+    
+        right: -10px;
+      
+    }
   }
   
