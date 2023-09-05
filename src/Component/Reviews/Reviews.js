@@ -1,6 +1,7 @@
 import React from "react";
-
 import "./slider.css";
+import {GrFormPrevious} from "react-icons/gr"
+import {GrFormNext} from "react-icons/gr"
 const Reviews = () => {
   return (
     <div className="slider container">
@@ -13,35 +14,31 @@ const Reviews = () => {
         >
           <div class="carousel-inner">
             <div class="carousel-item active">
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex
-                dolores earum quia ullam corrupti quidem ipsum voluptas eum
-                necessitati
-                laudantium exercitationem reprehenderit ut earum unde libero!
+            <div className='reviewCard'>
+          
 
-              </p>
+          <span> A responsive and interactive Todo List app with drag-and-drop functionality and CRUD operations. This app is built using React, Bootstrap, React Bootstrap, and Material-UI.
+
+</span>
+    </div>
             </div>
             <div class="carousel-item">
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex
-                    dolores earum quia ullam corrupti quidem ipsum voluptas eum
-                    necessitati
-                    laudantium exercitationem reprehenderit ut earum unde libero!
-                    Maxime repellat labore amet molestias voluptate, distinctio iure
-                    eos fugiat v
-                    repellat i
-                  </p>
+            <div className='reviewCard'>
+          
+
+          <span> A responsive and interactive Todo List app with drag-and-drop functionality and CRUD operations. This app is built using React, Bootstrap, React Bootstrap, and Material-UI.
+
+</span>
+    </div>
             </div>
             <div class="carousel-item">
-                <p class="">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex
-                    dolores earum quia ullam corrupti quidem ipsum voluptas eum
-                    necessitati
-                    laudantium exercitationem reprehenderit ut earum unde libero!
-                    Maxime repellat labore amet molestias voluptate, distinctio iure
-                    eos fugiat v
-                    repellat
-                  </p>
+            <div className='reviewCard'>
+          
+
+          <span> A responsive and interactive Todo List app with drag-and-drop functionality and CRUD operations. This app is built using React, Bootstrap, React Bootstrap, and Material-UI.
+
+</span>
+    </div>
             </div>
           </div>
           <button
@@ -51,7 +48,7 @@ const Reviews = () => {
             data-bs-slide="prev"
           >
            
-            <span>Previous</span>
+           <span className="fs-1"><GrFormPrevious/></span>
           </button>
           <button
             class="carousel-control-next  text-dark"
@@ -60,7 +57,7 @@ const Reviews = () => {
             data-bs-slide="next"
           >
            
-            <span>Next</span>
+            <span className="fs-1"><GrFormNext/></span>
           </button>
         </div>
       </div>
