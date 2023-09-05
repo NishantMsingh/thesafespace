@@ -18,14 +18,20 @@
 .carousel-inner{
     width: 60%;
 }
+.card-text{
+    height:200px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .reviewCard{
     min-width: 60%;
     height:300px;
     padding: 10px;
     text-align: center;
-    align-items: center;
-    justify-content: center;
+    align-items:stretch;
     display: flex;
+    flex-direction: column;
     border-radius: 4px ;
      margin: 0px 10px;
     background-color:  rgba(255, 82, 160, 0.37);;
@@ -53,14 +59,7 @@
     .reviewCard{
         min-width: 90%;
         height:300px;
-        padding: 10px;
-        text-align: center;
-        align-items: center;
-        justify-content: center;
-        display: flex;
-        border-radius: 4px ;
-         margin: 0px 10px;
-        background-color:  rgba(255, 82, 160, 0.37);;
+      
     }
     .carousel-inner{
         width: 85%;

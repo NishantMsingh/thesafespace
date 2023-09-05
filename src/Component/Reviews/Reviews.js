@@ -2,6 +2,8 @@ import React from "react";
 import "./slider.css";
 import {GrFormPrevious} from "react-icons/gr"
 import {GrFormNext} from "react-icons/gr"
+import {RiDoubleQuotesL} from "react-icons/ri"
+import {RiDoubleQuotesR} from "react-icons/ri"
 const Reviews = () => {
   return (
     <div className="slider container">
@@ -16,10 +18,16 @@ const Reviews = () => {
             <div class="carousel-item active">
             <div className='reviewCard'>
           
+   <div className="card-text">
+    <span> <RiDoubleQuotesL fontSize={"2rem"} color=" rgb(255,82,161)"/> A responsive and interactive Todo List app with drag-and-drop functionality and CRUD operations. This app is built using React, Bootstrap, React Bootstrap, and Material-UI.
+    <RiDoubleQuotesR fontSize={"2rem"}  color=" rgb(255,82,161)"/>
+    </span>
 
-          <span> A responsive and interactive Todo List app with drag-and-drop functionality and CRUD operations. This app is built using React, Bootstrap, React Bootstrap, and Material-UI.
-
-</span>
+   </div>
+   <div>
+    <button>Slignup</button>
+   </div>
+         
     </div>
             </div>
             <div class="carousel-item">
