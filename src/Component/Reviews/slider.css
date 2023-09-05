@@ -1,0 +1,66 @@
+
+.slider{
+    width: 100%;
+    height: 400px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    overflow-x: scroll;
+}
+.carousel {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.carousel-inner{
+    width: 60%;
+}
+.reviewCard{
+    min-width: 60%;
+    height:300px;
+    padding: 10px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border-radius: 4px ;
+     margin: 0px 10px;
+    background-color:  rgba(255, 82, 160, 0.37);;
+}
+.slider::-webkit-scrollbar {
+    width: 10px; /* Adjust the width as needed */
+    opacity: 0;
+  }
+  
+  /* Style the scrollbar track (the background) for the .slider class */
+  .slider::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  
+  /* Style the scrollbar thumb (the draggable part) for the .slider class */
+  .slider::-webkit-scrollbar-thumb {
+    background: transparent;
+  }
+  
+  
+  
+  
+  @media (max-width:768px)
+  {
+    .reviewCard{
+        min-width: 90%;
+        height:300px;
+        padding: 10px;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        border-radius: 4px ;
+         margin: 0px 10px;
+        background-color:  rgba(255, 82, 160, 0.37);;
+    }
+  }
+  

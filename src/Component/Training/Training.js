@@ -5,7 +5,7 @@ import {BsWhatsapp} from "react-icons/bs"
 const Training = () => {
   return (
     <div className="container mt-5 mb-5 p-3 d-flex align-items-center justify-content-center flex-column">
-      <h6 className="brand title-workshop text-center">TRAINING/CERTIFICATION PROGRAMS</h6>
+      <h6 className="brand title-training text-center">TRAINING/CERTIFICATION PROGRAMS</h6>
       <hr/>
       <nav aria-label="breadcrumb fs-6">
         <ol class="breadcrumb">

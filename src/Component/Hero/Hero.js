@@ -1,5 +1,5 @@
 import "./Hero.css";
-import {IoIosArrowForward} from "react-icons/io";
+
 import imageHero from "../../Assets/Images/doctor-5710153.jpg"
 const HeroSection = () => {
   return (

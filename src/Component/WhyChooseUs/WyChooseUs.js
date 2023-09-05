@@ -18,7 +18,9 @@ const WyChooseUs = () => {
       <span  className="bold primary-pinki">  Lasting Impact:</span> Our workshops are not just events - they are experiences
         that inspire lasting positive change.
       <br/>
-        Invest in the well-being and success of your team today. Book a
+        Invest in the well-being and success of your team today. 
+        
+        <br/>Book a
         transformative workshop with us and take the first step towards a
         happier, more cohesive, and productive workplace.
       <br/>

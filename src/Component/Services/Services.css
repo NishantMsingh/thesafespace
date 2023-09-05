@@ -27,7 +27,9 @@
 .mx-hight{
   min-height: 25rem;
 }
- 
+ .card{
+ box-shadow:  0px 5px 4px 1px rgba(160, 160, 160, 0.274)
+ }
   
   .card-button:hover::before {
     left: 0;
