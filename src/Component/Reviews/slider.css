@@ -69,8 +69,9 @@
   @media (max-width:768px)
   {
     .reviewCard{
+        margin-top: 10px;
         min-width: 95%;
-        height:400px;
+        height:500px;
       
     }
     .slider{
@@ -89,7 +90,7 @@
         font-size: 1.1rem;
     }
     .carousel-inner{
-        width: 90%;
+        width: 100%;
     }
     .carousel-control-prev{
     

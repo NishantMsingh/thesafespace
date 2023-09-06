@@ -10,7 +10,7 @@ import { FaUserCircle } from "react-icons/fa"
 const Reviews = () => {
     return (
        <div className="container-fluid text-center mt-4 pt-5">  
-         <span className="brand shadow rounded pt-1 pb-1 ps-3 pe-3 select fs-3 yellow" >Testimonials</span>
+         <span className="brand shadow rounded pt-1 pb-1 ps-3 pe-3 select fs-3 yellow  mb-5" >Testimonials</span>
          <div className="slider container">
            
            <div className="slider">
